@@ -1,2 +1,23 @@
-Write a blog on Difference between HTTP1.1 vs HTTP2
-Write a blog about objects and its internal representation in Javascript
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP1.1:
+•	It transfer all the request and response in the text message form.
+•	It blocks all the request until it doesn’t get its resources.
+•	It compresses data by itself.
+HTTP 2:
+•	It works on binary framing that covert all text message to binary format.
+•	It allow multiplexing so multiple request can be sent at a time.
+•	It uses HPACK for data compression.
+
+
+
+2. Write a blog about objects and its internal representation in Javascript
+
+Objects are important data types in javascript.object are different than primitive datatype,primitive datatype contain only one value but object can hold many values in form of key.
+Ex:
+Var myClass=new objects(); 
+myClass.boys=20; 
+myClass.girls=30; 
+myClass.total=50;
+
+
